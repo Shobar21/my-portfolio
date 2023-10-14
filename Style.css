@@ -1,0 +1,80 @@
+*body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+}
+.navbar h1 {
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+}
+.navbar span {
+  color: crimson;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.Container {
+  display: flex;
+  height: 550px;
+  padding: 25px;
+  background-color: black;
+}
+.Container h1 {
+  font-size: 50px;
+}
+.text {
+  color: white;
+  padding-left: 120px;
+  margin: 35px;
+}
+.img {
+  height: 470px;
+  width: 320px;
+  padding-left: 120px;
+  margin: 10px;
+}
+button {
+  width: 120px;
+  height: 40px;
+  margin: 35px;
+
+  margin-top: 10px;
+  color: white;
+}
+.cv-button {
+  background-color: crimson;
+}
+.btn {
+  background-color: black;
+  border: 1px solid crimson;
+}
+.main-container {
+  display: flex;
+  height: 550px;
+  padding: 25px;
+  background-color: rgb(23, 22, 22);
+}
+.main-container .text {
+  text-align: center;
+  padding-left: 120px;
+}
+.main-container h1 {
+  font-size: 40px;
+}
+.main-container h2 {
+  color: crimson;
+  font-size: 40px;
+}
